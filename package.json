@@ -1,0 +1,24 @@
+{
+  "name": "ask-me",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "@sequelize/mariadb": "^7.0.0-alpha.41",
+    "@sequelize/postgres": "^7.0.0-alpha.41",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "sequelize": "^6.37.3"
+  }
+}
