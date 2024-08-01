@@ -7,7 +7,7 @@ const Resposta = connection.define('respostas',{
     perguntaId: {type: Sequelize.INTEGER, allowNull: false}
 })
 
-Resposta.sync({force: false})
+Resposta.sync({force: true})
     .then(()=>{
         console.log('Tabela resposta sincronizada')
     }).catch((error) =>{
